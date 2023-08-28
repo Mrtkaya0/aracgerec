@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+
+.logo {   
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(231, 231, 22);
+    border-radius: 50%;
+    padding: 50px;
+    margin-top: 85px;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(231, 231, 22);
+    font-size: 35px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: url(cıvata.jpg);
+    background-position: center;
+    background-size: cover;
+}
+p {
+    font-size: 10px;
+    color: #fff;
+    line-height: 20px;
+}
+.btn{
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: rgb(231, 231, 22);
+    background-color: #000000;
+    border: 1px solid rgb(231, 231, 22);
+    text-decoration: none;
+    transition:ease 0.5s;
+
+
+}
+
+.btn:hover{
+    background-color: grey;    
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   column-gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(231, 231, 22);
+    transition:ease 0.5s;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(231, 231, 22);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+nav ul li a:hover {
+    color: #c5b4b4;
+    
+    
+}
+.row {
+    display: flex;
+    align-items: center;
+    column-gap: 10x;
+    height: 88%;
+}
+.col {
+    flex-basis: 50%;
+}
+h1 {
+    color: rgb(231, 231, 22);
+    font-size: 70px;
+    margin-top: 100px;
+
+}
+.desc{
+    font-size: 16px;
+}
+.cards {
+    max-width: 500px;
+    margin: auto;
+    
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 2px solid rgb(231, 231, 22);
+    position: relative;
+    margin: 10px 15px;
+    transition:ease 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color:rgb(231, 231, 22);
+}
+
+.card .card-head{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(231, 231, 22);
+    border-radius: 10px;
+    padding: 6px;
+}
+.card .card-bottom{
+    position: absolute;
+    bottom: 26px;
+}
+.card.card-1{
+    background-image: url(hiltiler1.jpg);
+
+}
+.card.card-2{
+background-image: url(görsel2.jpg);
+}
+.card.card-3{
+background-image: url(görsel3.jpg);
+}
+.card.card-4{
+background-image: url(görsel4.jpg);
+}
