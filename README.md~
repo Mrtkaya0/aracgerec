@@ -1,0 +1,29 @@
+ <header>
+        <h1>hırdavat</h1>
+        <p>Proje Açıklaması: Hırdavat ön yüz sayfaso.</p>
+    </header>
+    <main>
+        <section>
+            <h2>animasyonlu şekilde görseller </h2>
+            <p>kolay bir ön yüz ile basit kullanım.</p>
+            <pre><code>html css ile basit bir kod yapısı kullanılmıştır</code></pre>
+        </section>
+
+        <section>
+            <h2>basit </h2>
+            <p>tek tıkla kurulum</p>
+        </section>
+
+        <section>
+            <h2>Katkıda Bulunma</h2>
+            <p>Projeyle ilgileniyorsanız ve katkıda bulunmak istiyorsanız, hesabım yolu ile iletişime geçiniz</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 hırdavat</p>
+        <p>Designed by <a href="#">murat kaya</a></p>
+    </footer>
+</body>
+</html>
